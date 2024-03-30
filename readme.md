@@ -79,6 +79,8 @@ if (subject.toLowerCase === Book.toLowerCase){ // 2ta variable string kei choto 
 // white space samne hole trimStart() , picone hole trimEnd()\<br>
 // aar jodi cie overall samne picone dite aeto bar check korben na <br>
 // taile use sobsomoy trim bass <br>
+// tobe mone rakben 2ta string er maje jodi white space thake taile kintu string kore laav nai
+// trim kaj kore 2ta string er samne and picone white space remove
 // Ex- 2<br>
 <br>
 let Drink = "water " // trim() dewwate sob white space katce<br>
@@ -89,6 +91,19 @@ if ( Drink.trim()=== liquid.trim()){<br>
 }else{<br>
     console.log("vai trim koro joldi , pani kaite hobe");<br>
 }<br>
+//output: //pani ami kabo<br>
+<br>
+// Ex- 2<br>
+<br>
+let Drink = "water " // trim() dewwate sob white space katce<br>
+let liquid = "  wate r"<br> /// kintu majer white space katbe na trim jotio trim use koren na ken
+<br>
+if ( Drink.trim()=== liquid.trim()){<br>
+    console.log("pani ami kabo");<br>
+}else{<br>
+    console.log("vai trim koro joldi , pani kaite hobe");<br>
+}<br>
+//output: //vai trim koro joldi , pani kaite hobe<br>
 <br>
 // sumUP :<br>
 // 2ta string comparison e problem 1 : onek somoy lower and uppercase problem hoi , use koren both .<br>touppercase()  othoba .tolowercase()<br>
