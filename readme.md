@@ -50,13 +50,27 @@ console.log(village);  // se aeta change korbe na , karon<br>
 const subject = "Chemisty"<br>
 const Book = "chemisty"<br>
 <br>
-if (subject.toLowerCase === Book.toLowerCase){ // 2ta variable string kei choto hater korse , ciele<br> oppostie ta kore deken <br>
+if (subject === Book){ 
     console.log("porikkai fatai felbo");<br>
 }else{<br>
     console.log("hudai prista ultai"); <br>
 }<br>
 <br>
 // output : hudai prista ultai : karon C , c 2ta js er kase aalada string <br>
+<br>
+// <br>
+<br>
+// Ex- 1.1<br>
+const subject = "Chemisty"<br>
+const Book = "chemisty"<br>
+<br>
+if (subject.toLowerCase === Book.toLowerCase){ // 2ta variable string kei choto hater korse , ciele<br> oppostie ta kore deken <br>
+    console.log("porikkai fatai felbo");<br>
+}else{<br>
+    console.log("hudai prista ultai"); <br>
+}<br>
+<br>
+// output :porikkai fatai felbo <br>
 <br>
 // <br>
 <br>
