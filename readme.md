@@ -35,5 +35,50 @@ console.log(village);  // se aeta change korbe na , karon<br>
 // array immutabel >>>>  changeble /// array modde index dea element change kora jai ...<br>
 <br>
 
-        Know the String   <End>
-=================================================
+    String Comparison Lowercase Uppercase And Trim <Start>
+============================================================
+<br>
+// uppercase & lowercase 2ta alada taile compare korbo kibabe ? <br>
+// just 2ta kei .tolowercase() / .toUppercase dea compare koren<br>
+//.tolowercase() aeta ki ? aeta pura string ke choto hater banai <br>
+// .touppercase() opposite banai<br>
+// .tolowercase() / .toUppercase kokon lage ?<br>
+// user jokon login kore , tokon borohater ba choto hater dei username , tarpor sei kintu nei <br>
+// kibabe kore , se 2ta varibale ke boro / choto kore deke den dokte dei<br>
+<br>
+// Ex- 1<br>
+const subject = "Chemisty"<br>
+const Book = "chemisty"<br>
+<br>
+if (subject.toLowerCase === Book.toLowerCase){ // 2ta variable string kei choto hater korse , ciele<br> oppostie ta kore deken <br>
+    console.log("porikkai fatai felbo");<br>
+}else{<br>
+    console.log("hudai prista ultai"); <br>
+}<br>
+<br>
+// output : hudai prista ultai : karon C , c 2ta js er kase aalada string <br>
+<br>
+// <br>
+<br>
+/// oneke somoy 2ta string comparison e lowercase/ uppercase bad e o arrekta problem hoi seta holo<br>
+// white space // so aeta aage o hote pare and whitespace pore o hote pare <br>
+// white space samne hole trimStart() , picone hole trimEnd()\<br>
+// aar jodi cie overall samne picone dite aeto bar check korben na <br>
+// taile use sobsomoy trim bass <br>
+// Ex- 2<br>
+<br>
+let Drink = "water " // trim() dewwate sob white space katce<br>
+let liquid = "  water"<br>
+<br>
+if ( Drink.trim()=== liquid.trim()){<br>
+    console.log("pani ami kabo");<br>
+}else{<br>
+    console.log("vai trim koro joldi , pani kaite hobe");<br>
+}<br>
+<br>
+// sumUP :<br>
+// 2ta string comparison e problem 1 : onek somoy lower and uppercase problem hoi , use koren both .<br>touppercase()  othoba .tolowercase()<br>
+/// 2ta string comparison e problem 2 : onek somoy white space pore , samne whitespace porle use<br>  koren     .trimStrat  aar picone porle use kore .trimEnd  aar jodi kono jamela na chan use koren .trim()<br>
+
+    String Comparison Lowercase Uppercase And Trim <End>
+============================================================
