@@ -93,7 +93,7 @@ if ( Drink.trim()=== liquid.trim()){<br>
 }<br>
 //output: //pani ami kabo<br>
 <br>
-// Ex- 2<br>
+// Ex- 2.2<br>
 <br>
 let Drink = "water " // trim() dewwate sob white space katce<br>
 let liquid = "  wate r"<br> /// kintu majer white space katbe na trim jotio trim use koren na ken
@@ -110,4 +110,28 @@ if ( Drink.trim()=== liquid.trim()){<br>
 /// 2ta string comparison e problem 2 : onek somoy white space pore , samne whitespace porle use<br>  koren     .trimStrat  aar picone porle use kore .trimEnd  aar jodi kono jamela na chan use koren .trim()<br>
 
     String Comparison Lowercase Uppercase And Trim <End>
+============================================================
+
+
+         String Slice, Join, Concat And Includes<Start>
+        /// string holo sequence of character 
+        /// slice (2,7) er mane se 2 theke 7 er aag porjonto nibe tar mane 2 theke 6 porjonto nibe.
+        // slice ( 2,4) er mane 2 theke 3 porjonto nibe
+        
+        const address = "andorkilla"
+        console.log(address.slice(2,5)); // outpit : dor
+
+        /// know about substring & substr from google 
+
+        // split mane kono kicu ke bag kora
+        const sentence = "I am a good student"
+        console.log(sentence.split());// return a array ,output: [ 'I am a good student' ]
+        console.log(sentence.split('')); // sobieke aalda string dea bag korbe 
+
+
+
+============================================================
+
+
+         String Slice, Join, Concat And Includes<End>
 ============================================================
